@@ -52,17 +52,20 @@ function CreateLocalizationInfo()
 	Strings.ButtonOK = "OK, danke f\195\188r die Info !!!";
 	Strings.ButtonLink = "Link zum Chat senden";
 	Strings.ShellMessage = "Sie k\195\182nnen es \195\188ber das Kompendium oder \195\188ber diesen Link herunterladen : ";
-	Strings.Description1 = "OneToRuleThemAll ist ein kleines Plugin, mit dem Sie schnell auf alle meine Addons zugreifen konnen\n" ..
-						"Sie konnen mit der linken Maustaste auf das rechte Symbol klicken, um ein Plugin zu laden\n" ..
-						"oder klicken Sie mit der rechten Maustaste, um es herunterzuladen\n" ..
-						"Laden Sie alle Plugins beim ersten Start und behalten Sie Ihre Anderungen fur Ihre nachste Verbindung bei\n" ..
-						"Ein grunes Symbol = Plugins geladen\n" ..
-						"Ein graues Symbol = Plugin nicht geladen, aber vorhanden\n" ..
-						"Ein rotes Symbol = Sie haben dieses Plugin noch nicht heruntergeladen\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/OTR show - zeige das Fenster\n" ..
-						"/OTR Hide - Verstecke das Fenster\n" ..
-						"/OTR esc - Aktivieren oder deaktivieren Sie die Escape-Taste";
+	Strings.Description1 = "'OneToRuleThemAll' ist ein Autostart-Manager für meine Plugins.\n\n" ..
+						"Beim ersten Start werden alle meine Plugins geladen und du kannst ausw\195\164hlen, welche beim n\195\164chsten Mal aktiv sein sollen.\n" ..
+						"Klicke auf den Namen des Plugins, um eine kurze Beschreibung und den Download-Link zu erhalten.\n" ..
+						"Klicke mit der linken Maustaste auf das Symbol rechts vom Namen, um das Plugin sofort zu laden und zuk\195\188nftig zu aktivieren oder mit der rechten Maustaste, um es sofort zu beenden und zuk\195\188nftig zu deaktivieren.\n\n" ..
+						"Gr\195\188nes Symbol = Das Plugin ist geladen.\n" ..
+						"Graues Symbol = Das Plugin ist installiert, aber nicht geladen.\n" ..
+						"Rotes Symbol = Das Plugin ist nicht installiert.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/otr show - Zeigt das Fenster an.\n" ..
+						"/otr hide - Blendet das Fenster aus.\n" ..
+						"/otr esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/otr alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/otr options - Zeigt die Optionen an.\n" ..
+						"/otr toggle - Fenster anzeigen/ausblenden.\n\n";
 	Strings.Description2 = "Pet Shop ist ein kleines Plugin, mit dem Sie schnell auf Ihre Haustiere und deren Futter zugreifen k\195\182nnen\n" ..
 						"Setzen Sie Vertraute in die erste Zeile\n" ..
 						"Setzen Sie Essen in die zweite Zeile\n" ..
@@ -77,79 +80,92 @@ function CreateLocalizationInfo()
 						"/An defaultluxe - F\195\188llen Sie das Fenster automatisch mit allen grundlegenden aktualisierten Haustieren aus\n" ..
 						"Sie k\195\182nnen das Fenster schlie\195\159en, indem Sie auf das Kreuz klicken\n" ..
 						"und Sie k\195\182nnen es erneut \195\182ffnen, indem Sie auf das Symbol ZOO klicken";
-	Strings.Description3 = "YulHelper ist ein kleines Plugin, mit dem Sie schnell auf Ihre Wurfobjekte zugreifen k\195\182nnen\n" ..
-						"Sie K\195\182nnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
-						"Sie k\195\182nnen auf die Schaltfl\195\164che YUL klicken, um das Fenster anzuzeigen, oder auf die Schaltfl\195\164che klicken, um es auszublenden\n\n" ..
-						"Verkn\195\188pfung verf\195\188gbar\n" ..
-						"/Yu show - zeige das Fenster\n" ..
-						"/Yu Hide - Verstecke das Fenster\n" ..
-						"/Yu clear - Alle Eintr\195\164ge l\195\182schen\n" ..
-						"/Yu default - f\195\188llt das Fenster automatisch mit allen Basis-Haustieren\n" ..
-						"Sie k\195\182nnen das Fenster schlie\195\159en, indem Sie auf das Kreuz klicken\n" ..
-						"und Sie k\195\182nnen es erneut \195\182ffnen, indem Sie auf das Symbol YUL klicken";
-	Strings.Description4 = "YulTheatre ist ein kleines Plugin, mit dem Sie schnell auf ihre emotes\n" ..
-						"Die Zahlen geben die Reihenfolge des Auftretens an\n" ..
-						"Sie k\195\182nnen auf die Schaltfl\195\164che YULTHEATRE klicken, um das Fenster anzuzeigen, oder auf die Schaltfl\195\164che klicken, um es auszublenden\n\n" ..
-						"Verkn\195\188pfung verf\195\188gbar\n" ..
-						"/YulTheatre show - zeige das Fenster\n" ..
-						"/YulTheatre Hide - Verstecke das Fenster\n" ..
-						"/YulTheatre clear - Alle Eintr\195\164ge l\195\182schen\n" ..
-						"/YulTheatre default - F\195\188llt das Fenster automatisch mit allen grundlegenden Emotes\n" ..
-						"Sie k\195\182nnen das Fenster schlie\195\159en, indem Sie auf das Kreuz klicken\n" ..
-						"und Sie k\195\182nnen es erneut \195\182ffnen, indem Sie auf das Symbol YULTHEATRE klicken";
-	Strings.Description5 = "FarmingHelper ist ein kleines Plugin, mit dem Sie schnell einen Uberblick uber die von Ihnen bewirtschafteten Gegenstande erhalten, ohne alle 5 Minuten Ihre Tasche offnen zu mussen\n" ..
-						"Sie K\195\182nnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
-						"Sie mussen Ihren Safe und Ihren gemeinsam genutzten Speicher offnen um die Suche an diesen Orten zu aktivieren\n" ..
-						"Sie k\195\182nnen in den Optionen den Kontrollzeitraum der Tasche, den gemeinsam genutzten Speicher und den Tresor definieren\n" ..
-						"Klicken Sie mit der rechten Maustaste auf das Symbol, um das Optionsfenster anzuzeigen\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Fa show - zeige das Fenster\n" ..
-						"/Fa Hide - Verstecke das Fenster\n" ..
-						"/Fa esc - Aktivieren oder deaktivieren Sie die Escape-Taste\n" ..
-						"/Fa options - Zeigen Sie das Optionsfenster an";
-	Strings.Description6 = "Caserne ist ein kleines Plugin, mit dem Sie schnell auf Ihre Kameraden zugreifen K\195\182nnen\n" ..
-						"Sie K\195\182nnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
-						"Sie K\195\182nnen auf die Schaltflache CASERNE klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
-						"Sie K\195\182nnen das Fenster schliessen, indem Sie auf das Kreuz klicken\n" ..
-						"und Sie K\195\182nnen es erneut offnen, indem Sie auf das Symbol CASERNE klicken\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Ca show - zeige das Fenster\n" ..
-						"/Ca Hide - Verstecke das Fenster";
-	Strings.Description7 = "Fisherman ist ein kleines Plugin, mit dem Sie schnell auf Ihre Angelfahigkeiten und Angelruten zugreifen K\195\182nnen\n" ..
-						"Sie K\195\182nnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
-						"Sie K\195\182nnen auf die Schaltflache FISHERMAN klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
-						"Sie K\195\182nnen das Fenster schliessen, indem Sie auf das Kreuz klicken\n" ..
-						"und Sie K\195\182nnen es erneut offnen, indem Sie auf das Symbol FISHERMAN klicken\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Fish show - zeige das Fenster\n" ..
-						"/Fish Hide - Verstecke das Fenster";
-	Strings.Description8 = "HorseStable ist ein kleines Plugin, mit dem Sie schnell auf Ihre Reittiere zugreifen K\195\182nnen\n" ..
-						"Sie K\195\182nnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
-						"Sie K\195\182nnen auf die Schaltflache HORSESTABLE klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
-						"Sie K\195\182nnen das Fenster schliessen, indem Sie auf das Kreuz klicken\n" ..
-						"und Sie K\195\182nnen es erneut offnen, indem Sie auf das Symbol HORSESTABLE klicken\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Ho show - zeige das Fenster\n" ..
-						"/Ho Hide - Verstecke das Fenster\n" ..
-						"/Ho clear - Alle Eintrage loschen\n" ..
-						"/Ho options - Zeigen Sie das Optionsfenster an";
-	Strings.Description9 = "MinstrelMentor ist ein kleines Plugin, mit dem Sie schnell auf Ihre Musiklehrer fur Minstrel zugreifen K\195\182nnen\n" ..
-						"Sie K\195\182nnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
-						"Sie K\195\182nnen auf die Schaltflache MM klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
-						"Sie K\195\182nnen das Fenster schliessen, indem Sie auf das Kreuz klicken\n" ..
-						"und Sie K\195\182nnen es erneut offnen, indem Sie auf das Symbol MM klicken\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Mi show - zeige das Fenster\n" ..
-						"/Mi Hide - Verstecke das Fenster\n" ..
-						"/Mi clear - Alle Eintrage loschen";
-	Strings.Description10 = "Passage ist ein kleines Plugin, mit dem Sie schnell auf die Suche nach Jagerpassagen zugreifen K\195\182nnen\n" ..
-						"Sie K\195\182nnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
-						"Sie K\195\182nnen auf die Schaltflache PASSAGE klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
-						"Sie K\195\182nnen das Fenster schliessen, indem Sie auf das Kreuz klicken\n" ..
-						"und Sie K\195\182nnen es erneut offnen, indem Sie auf das Symbol PASSAGE klicken\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Pa show - zeige das Fenster\n" ..
-						"/Pa Hide - Verstecke das Fenster";
+	Strings.Description3 = "Mit 'YulHelper' kannst Du schnell auf alle Wurfobjekte des Julfestes zugreifen.\n\n" ..
+						"Du kannst auf das Symbol klicken, um das Fenster anzuzeigen oder auszublenden.\n" ..
+						"Wenn du mit dem Mauszeiger \195\188ber eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/yu show - Zeigt das Fenster an.\n" ..
+						"/yu hide - Blendet das Fenster aus.\n" ..
+						"/yu default - F\195\188llt die Pl\195\164tze mit Standardobjekten.\n" ..
+						"/yu alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/yu clear - L\195\182scht alle Verkn\195\188pfungen.\n" ..
+						"/yu toggle - Fenster anzeigen/ausblenden.\n\n";
+	Strings.Description4 = "Mit 'YulTheatre' kannst du auf alle ben\195\182tigten Emotes w\195\164hrend der Theaterauff\195\188hrung in Frostfels beim Julfest zugreifen.\n\n" ..
+						"Du kannst auf das Symbol klicken, um das Fenster anzuzeigen oder auszublenden.\n" ..
+						"Die Zahlen neben den Emotes geben die Reihenfolge des Auftretens an.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/yut show - Zeigt das Fenster an.\n" ..
+						"/yut hide - Blendet das Fenster aus.\n" ..
+						"/yut alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/yut toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/yut clear - L\195\182scht alle Eintr\195\164ge.\n" ..
+						"/yut default - F\195\188gt alle Standard-Emotes ein.\n\n";
+	Strings.Description5 = "Mit 'FarmingHelper' bekommst du schnell einen \195\156berblick \195\188ber die Rohstoffe in deinem Inventar, der Bank und dem Gemeinsamen Lagerraum, ohne diese immer wieder \195\182ffnen zu m\195\188ssen.\n\n" ..
+						"Du musst das Inventar, die Bank und den Gemeinsamen Lagerraum einmalig \195\182ffnen, um die Suche an diesen Orten zu aktivieren.\n" ..
+						"Klicke mit der rechten Maustaste auf das Symbol, um die Optionen anzuzeigen.\n" ..
+						"Du kannst dort die Aktualisierungszeit für das Inventar, die Bank und den Gemeinsamen Lagerraum definieren.\n" ..
+						"Wenn du mit dem Mauszeiger über eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/fa show - Zeigt das Fenster an.\n" ..
+						"/fa hide - Blendet das Fenster aus.\n" ..
+						"/fa alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/fa esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/fa toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/fa options - Zeigt die Optionen an.\n\n";						
+	Strings.Description6 = "Mit 'Caserne' kannst du schnell auf die Herolde der Hauptmann-Klasse zugreifen.\n\n" ..
+						"Du kannst auf das Symbol klicken, um das Fenster anzuzeigen oder auszublenden.\n" ..
+						"Wenn du mit dem Mauszeiger \195\188ber eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/ca show - Zeigt das Fenster an.\n" ..
+						"/ca hide - Blendet das Fenster aus.\n" ..
+						"/ca lock - Sperrt/entsperrt die Verkn\195\188pfungen.\n" ..
+						"/ca alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/ca toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/ca clear - L\195\182scht alle Verkn\195\188pfungen.\n\n";						
+	Strings.Description7 = "Mit 'Fisherman' kannst du einfach auf deine Angelfertigkeit zugreifen bzw. schnell zwischen deinen Waffen und der Angelrute wechseln.\n\n" ..
+						"Du kannst auf das Symbol klicken, um das Fenster anzuzeigen oder auszublenden.\n" ..
+						"Klicke mit der rechten Maustaste auf das Symbol, um die Optionen anzuzeigen.\n" ..
+						"Wenn du mit dem Mauszeiger \195\188ber eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/fish show - Zeigt das Fenster an.\n" ..
+						"/fish hide - Blendet das Fenster aus.\n" ..
+						"/fish alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/fish clear - L\195\182scht alle Verkn\195\188pfungen.\n" ..
+						"/fish esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/fish options - Zeigt die Optionen an.\n" ..
+						"/fish toggle - Fenster anzeigen/ausblenden.\n\n";
+	Strings.Description8 = "Mit 'HorseStable' kannst du schnell auf deine Reittiere zugreifen oder ein zuf\195\164lliges Reittier ausw\195\164hlen.\n\n" ..
+						"Du kannst auf das Symbol klicken, um das Fenster anzuzeigen oder auszublenden.\n" ..
+						"Klicke mit der rechten Maustaste auf das Symbol, um die Optionen anzuzeigen.\n" ..
+						"Wenn du mit dem Mauszeiger \195\188ber eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/ho show - Zeigt das Fenster an.\n" ..
+						"/ho hide - Blendet das Fenster aus.\n" ..
+						"/ho options - Zeigt die Optionen an.\n" ..
+						"/ho alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/ho esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/ho clear - L\195\182scht alle Verkn\195\188pfungen.\n" ..
+						"/ho toggle - Fenster anzeigen/ausblenden.\n\n";						
+	Strings.Description9 = "Mit 'MinstrelMentor' kannst du schnell auf alle deine Mentorenf\195\164higkeiten des Barden zugreifen.\n\n" ..
+						"Du kannst auf das Symbol klicken, um das Fenster anzuzeigen oder auszublenden.\n" ..
+						"Wenn du mit dem Mauszeiger \195\188ber eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..						
+						"/mi show - Zeigt das Fenster an.\n" ..
+						"/mi lock - Sperrt/entsperrt die Verkn\195\188pfungen.\n" ..
+						"/mi default - F\195\188gt die vorhandenen Fertigkeiten automatisch ein.\n" ..
+						"/mi alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/mi hide - Blendet das Fenster aus.\n" ..
+						"/mi toggle - Fenster anzeigen/ausblenden.\n\n";						
+	Strings.Description10 = "Mit 'Passage' kannst du schnell auf die Passagefertigkeiten des J\195\164gers zugreifen.\n\n" ..
+						"Du kannst auf das Symbol klicken, um das Fenster anzuzeigen oder auszublenden.\n" ..
+						"Wenn du mit dem Mauszeiger \195\188ber eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/pa show - Zeigt das Fenster an.\n" ..
+						"/pa hide - Blendet das Fenster aus.\n" ..
+						"/pa alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/pa toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/pa default - F\195\188gt die vorhandenen Fertigkeiten automatisch ein.\n" ..
+						"/pa clear - L\195\182scht alle Verkn\195\188pfungen.\n\n";
 	Strings.Description11 = "PetStable ist ein kleines Plugin, mit dem Sie schnell auf Ihre Haustiere zugreifen K\195\182nnen\n" ..
 						"Sie K\195\182nnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
 						"Sie K\195\182nnen auf die Schaltflache PETSTABLE klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
