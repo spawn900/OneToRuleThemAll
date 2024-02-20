@@ -166,107 +166,136 @@ function CreateLocalizationInfo()
 						"/pa toggle - Fenster anzeigen/ausblenden.\n" ..
 						"/pa default - F\195\188gt die vorhandenen Fertigkeiten automatisch ein.\n" ..
 						"/pa clear - L\195\182scht alle Verkn\195\188pfungen.\n\n";
-	Strings.Description11 = "PetStable ist ein kleines Plugin, mit dem Sie schnell auf Ihre Haustiere zugreifen K\195\182nnen\n" ..
-						"Sie K\195\182nnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
-						"Sie K\195\182nnen auf die Schaltflache PETSTABLE klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
-						"Sie K\195\182nnen das Fenster schliessen, indem Sie auf das Kreuz klicken\n" ..
-						"und Sie K\195\182nnen es erneut offnen, indem Sie auf das Symbol PETSTABLE klicken\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Pe show - zeige das Fenster\n" ..
-						"/Pe Hide - Verstecke das Fenster\n" ..
-						"/Pe clear - Alle Eintrage loschen\n" ..
-						"/Pe options - Zeigen Sie das Optionsfenster an";
-	Strings.Description12 = "Escarmouche ist ein kleines Plugin, mit dem Sie schnell auf Ihre soldat\n" ..
-						"Sie K\195\182nnen auf die Schaltflache ESCARMOUCHE klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
-						"Sie K\195\182nnen das Fenster schliessen, indem Sie auf das Kreuz klicken\n" ..
-						"und Sie K\195\182nnen es erneut offnen, indem Sie auf das Symbol ESCARMOUCHE klicken\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Es show - zeige das Fenster\n" ..
-						"/Es Hide - Verstecke das Fenster\n" ..
-						"/Es esc -- Deaktivieren oder aktivieren Sie das Schliessen des Fensters mit der Escape-Taste";
-	Strings.Description13 = "FoodAndDrinks ist ein kleines Plugin, mit dem Sie schnell auf Ihre consumable\n" ..
-						"Sie K\195\182nnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
-						"Sie K\195\182nnen auf die Schaltflache FOODANDDRINKS klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
-						"Sie K\195\182nnen das Fenster schliessen, indem Sie auf das Kreuz klicken\n" ..
-						"und Sie K\195\182nnen es erneut offnen, indem Sie auf das Symbol FOODANDDRINKS klicken\n" ..
-						"Sie k\195\182nnen das Optionsfenster mit einem Rechtsklick auf das Symbol anzeigen\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Fo show - zeige das Fenster\n" ..
-						"/Fo Hide - Verstecke das Fenster\n" ..
-						"/Fo clear - Alle Eintrage loschen\n" ..
-						"/Fo options - Zeigen Sie das Optionsfeld an";
-	Strings.Description14 = "PopoHelper ist ein kleines Plugin, mit dem Sie schnell auf Ihre Tranke\n" ..
-						"Das Fenster wird automatisch angezeigt wenn Sie den standardmassig festgelegten Schwellenwert\n" ..
-						"Sie K\195\182nnen den Schwellenwert fur das Offnen des Fensters selbst definieren\n" ..
-						"Sie K\195\182nnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Popo show - zeige das Fenster\n" ..
-						"/Popo Hide - Verstecke das Fenster\n" ..
-						"/Popo clear - Alle Eintrage loschen\n" ..
-						"/Popo default - Setzen Sie die prozentuale Grenze auf 20 Prozent\n" ..
-						"/Popo mopourcent xx - Stellen Sie das prozentuale Limit fur moral auf xx\n" ..
-						"/Popo popourcent xx - Stellen Sie das prozentuale Limit fur kraft auf xx";
-	Strings.Description15 = "Profession ist ein kleines Plugin, mit dem Sie schnell auf Ihre Berufsverknupfungen zugreifen K\195\182nnen\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Pro show - zeige das Fenster\n" ..
-						"/Pro Hide - Verstecke das Fenster\n" ..
-						"/Pro esc - Aktivieren oder deaktivieren Sie die Escape-Taste";
-	Strings.Description16 = "Voyage ist ein kleines Plugin, mit dem Sie schnell auf Ihre Reisefahigkeiten zugreifen K\195\182nnen\n" ..
-						"Sie K\195\182nnen die Verknupfungen verschieben, um sie nach Ihren Wunschen zu organisieren\n" ..
-						"Klicken Sie mit der rechten Maustaste auf das Symbol, um das Optionsfenster zu offnen\n" ..
-						"Sie k\195\182nnen die gew\195\188nschten nicht verf\195\188gbaren Verkn\195\188pfungen ziehen und ablegen\n" ..
-						"Klicken Sie in den Optionen auf das Kontrollk\195\164stchen unten, um die Verkn\195\188pfungs\195\164nderungen beizubehalten\n" ..
-						"Wenn das Kontrollk\195\164stchen deaktiviert ist, werden standardm\195\164\195\159ig alle Verkn\195\188pfungen neu initialisiert\n" ..
-						"Funktioniert auch in Monster Play\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Voy show - zeige das Fenster\n" ..
-						"/Voy Hide - Verstecke das Fenster\n" ..
-						"/Voy default -- Setzen Sie alle Verknupfungen zuruck\n" ..
-						"/Voy options -- Zeigen Sie das Optionsfeld an\n" ..
-						"/Voy clear - Alle Eintrage loschen\n" ..
-						"/Voy clearteleport - L\195\182schen Sie alle Meilensteinpositionen\n" ..
-						"/Voy clearhouse - L\195\182schen Sie alle Standorte der H\195\164user";
-	Strings.Description17 = "AltHolic ist ein kleines Plugin mit dem Sie schnell einen Uberblick uber Ihre Alts erhalten\n" ..
-						"Ermoglicht das Bewegen der Maus uber das Klassensymbol um die Alternativausrustung anzuzeigenVerwenden :\n" ..
-						"Klicken Sie auf das Kreuz und geben Sie den Namen Ihres Kontos ein\n" ..
-						"Jedes Mal, wenn Sie sich mit einem Charakter verbinden, speichert das Plugin die Daten und erstellt sie automatisch\n" ..
-						"einen neuen Eintrag und speichern Sie alles, wenn Sie sich abmelden\n" ..
-						"Erm\195\182glicht es Ihnen, die Ausr\195\188stung Ihres anderen Charakters zu steuern, auch wenn Sie nicht damit verbunden sind\n" ..
-						"Sie k\195\182nnen auf das kleine Kreuz oben rechts klicken, um das Fenster zu minimieren, oder auf das Minuszeichen, um es erneut zu \195\182ffnen\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Alt show - zeige das Fenster\n" ..
-						"/Alt Hide - Verstecke das Fenster\n" ..
-						"/Alt esc - Aktivieren oder deaktivieren Sie die Escape-Taste\n" ..
-						"/Alt options -- Zeigen Sie das Optionsfeld an";
+	Strings.Description11 = "Mit 'PetStable' kannst du schnell auf deine Begleiter zugreifen oder einen zuf\195\164lligen Begleiter ausw\195\164hlen.\n\n" ..
+						"Du kannst auf das Symbol klicken, um das Fenster anzuzeigen oder auszublenden.\n" ..
+						"Klicke mit der rechten Maustaste auf das Symbol, um die Optionen anzuzeigen.\n" ..
+						"Wenn du mit dem Mauszeiger \195\188ber eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/pe show - Zeigt das Fenster an.\n" ..
+						"/pe hide - Blendet das Fenster aus.\n" ..
+						"/pe options - Zeigt die Optionen an.\n" ..
+						"/pe esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/pe alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/pe clear - L\195\182scht alle Verkn\195\188pfungen.\n" ..
+						"/pe toggle - Fenster anzeigen/ausblenden.\n\n";
+	Strings.Description12 = "Mit 'Escarmouche' kannst Du schnell auf deinen Scharm\195\188tzel-Soldaten zugreifen.\n\n" ..
+						"Du kannst auf das Symbol klicken, um das Fenster anzuzeigen oder auszublenden.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/es show - Zeigt das Fenster an.\n" ..
+						"/es hide - Blendet das Fenster aus.\n" ..
+						"/es alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/es toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/es esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n\n";						
+	Strings.Description13 = "Mit 'FoodAndDrinks' kannst du schnell auf deine Verbrauchsg\195\188ter (Essen, Tr\195\164nke, \195\150le etc.) zugreifen.\n\n" ..
+						"Du kannst auf das Symbol klicken, um das Fenster anzuzeigen oder auszublenden.\n" ..
+						"Klicke mit der rechten Maustaste auf das Symbol, um die Optionen anzuzeigen.\n" ..
+						"Wenn du mit dem Mauszeiger \195\188ber eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/fo show - Zeigt das Fenster an.\n" ..
+						"/fo hide - Blendet das Fenster aus.\n" ..
+						"/fo options - Zeigt die Optionen an.\n" ..
+						"/fo esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/fo clear - L\195\182scht alle Verkn\195\188pfungen.\n" ..
+						"/fo alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/fo lock - Sperrt/entsperrt die Verkn\195\188pfungen.\n" ..
+						"/fo toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/fo repos - Zeigt die aktuelle Position des Symbols an.\n" ..
+						"/fo repos xxx yyy - Positioniert das Symbol an den eingegebenen Koordinaten (x/y).\n\n";
+	Strings.Description14 = "Mit 'PopoHelper' kannst du schnell auf deine Moral- und Krafttr\195\164nke zugreifen.\n\n" ..
+						"Das Fenster wird automatisch angezeigt, wenn der festgelegte Schwellenwert unterschritten wurde.\n" ..
+						"Du kannst den Schwellenwert f\195\188r das \195\150ffnen des Fensters selbst definieren.\n" ..
+						"Wenn du mit dem Mauszeiger \195\188ber eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/popo hide - Blendet das Fenster aus.\n" ..
+						"/popo clear - L\195\182scht alle Verkn\195\188pfungen.\n" .. 
+						"/popo default - Setzt das prozentuale Limit auf 20%.\n" ..
+						"/popo repos - Zeigt die aktuelle Position des Symbols an.\n" ..
+						"/popo repos xxx yyy - Positioniert das Symbol an den eingegebenen Koordinaten (x/y).\n" ..
+						"/popo alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/popo mopourcent xx - Stellt das prozentuale Limit f\195\188r Moral auf xx% ein.\n" ..
+						"/popo popourcent xx - Stellt das prozentuale Limit f\195\188r Kraft auf xx% ein.\n" ..
+						"/popo lock - Sperrt bzw. entsperrt die Verkn\195\188pfungen.\n" ..
+						"/popo toggle - Fenster anzeigen/ausblenden.\n\n";
+	Strings.Description15 = "Mit 'Profession' kannst du auf deine Fertigkeiten zum Aufsp\195\188ren von Rohstoffen zugreifen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/pro show - Zeigt das Fenster an.\n" ..
+						"/pro hide - Blendet das Fenster aus.\n" ..
+						"/pro alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/pro toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/pro esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/pro options - Zeigt die Optionen an.\n" ..
+						"/pro always - Zeigt das Fenster immer an.\n\n";
+	Strings.Description16 = "Mit 'Voyage' kannst du schnell auf deine Reisefertigkeiten zugreifen.\n\n" ..						
+						"Klicke mit der rechten Maustaste auf das Symbol, um die Optionen anzuzeigen.\n" ..
+						"Du kannst die Verkn\195\188pfungen durch Drag & Drop verschieben, um sie nach deinen W\195\188nschen zu organisieren.\n" ..
+						"Aktiviere in den Optionen \'Manuelle \195\132nderungen beibehalten\', um deine \195\132nderungen zu speichern.\n" ..
+						"Wenn die Einstellung deaktiviert ist, werden die Verkn\195\188pfungen immer neu initialisiert.\n" ..
+						"Das Plugin funktioniert auch im Monster-Spiel.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/voy help - Zeigt das Hilfefenster an.\n" ..
+						"/voy show - Zeigt das Fenster an.\n" ..
+						"/voy hide - Blendet das Fenster aus.\n" ..
+						"/voy default - Setzt die Einstellungen zur\195\188ck.\n" ..
+						"/voy lock um die Symbole zu sperren oder zu entsperren\n" ..
+						"/voy options - Zeigt die Optionen an.\n" ..
+						"/voy clear - L\195\182scht alle Verkn\195\188pfungen.\n" ..
+						"/voy clearteleport - L\195\182scht alle Markstein-Fertigkeiten.\n" ..
+						"/voy alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/voy clearhouse - L\195\182scht alle Standorte der H\195\164user.\n" ..
+						"/voy toggle - Fenster anzeigen/ausblenden.\n\n";						
+	Strings.Description17 = "Mit 'AltHolic' erh\195\164lst du einen ausf\195\188hrlichen \195\156berblick \195\188ber alle deine Charaktere.\n\n" ..
+						"Klicke beim ersten Laden auf das 'Plus-Symbol' links oben im Fenster und gib den Namen des Spiele-Kontos ein.\n" ..
+						"Beim ersten Einloggen mit einem Charakter werden die Daten automatisch erstellt, beim Abmelden werden sie gespeichert.\n" ..						
+						"Du kannst die Daten der anderen Charakter (Verm\195\182gen, Ausr\195\188stung, Inventar, etc.) einsehen, auch wenn diese nicht eingeloggt sind.\n" ..
+						"Klicke im Fenster rechts neben dem Charakternamen auf das 'Plus' bzw. 'Minus', um die anderen Charaktere anzuzeigen bzw. auszublenden.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/alt help - Zeigt das Hilfefenster an.\n" ..
+						"/alt show - Zeigt das Fenster an.\n" ..
+						"/alt hide - Blendet das Fenster aus.\n" ..
+						"/alt esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/alt options - Zeigt die Optionen an.\n" ..
+						"/alt clear all - L\195\182scht alle Eintr\195\164ge.\n" ..
+						"/alt clear CharakterName - L\195\182scht den Charakter.\n" ..
+						"/alt toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/alt icon - Symbol anzeigen/ausblenden.\n" ..
+						"/alt alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/alt optionsbar - Zeigt die Optionen f\195\188r die Leiste an.\n";
 	Strings.Description18 = "BurglarHelper ist ein kleines Plugin, mit dem Sie schnell auf Ihre Einbrecherfahigkeiten zugreifen konnen\n" ..
 						"Sie konnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
 						"Sie konnen auf die Schaltflache BurglarHelper klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
 						"Sie konnen das Fenster schliessen, indem Sie auf das Kreuz klicken\n" ..
 						"und Sie konnen es erneut offnen, indem Sie auf das Symbol BurglarHelper klicken\n\n" ..
-						"Verknupfung verfugbar\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
 						"/Bu show - zeige das Fenster\n" ..
 						"/Bu Hide - Verstecke das Fenster\n" ..
 						"/Bu esc -- Deaktivieren oder aktivieren Sie das Schliessen des Fensters mit der Escape-Taste\n" ..
 						"/Bu default -- Setzen Sie alle Verknupfungen zuruck\n";
-	Strings.Description19 = "Clock ist ein kleines Plugin, mit dem Sie schnell die Uhrzeit und die Tageszeit anzeigen konnen\n" ..
-						"Klicken Sie mit der rechten Maustaste auf das Symbol, um das Optionsfenster anzuzeigen\n" ..
-						"Sie konnen einen Alarm einstellen\n" ..
-						"Wenn das Plugin nicht synchronisiert ist, andern Sie den Server in den Optionen\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Cl show - zeige das Fenster\n" ..
-						"/Cl Hide - Verstecke das Fenster\n" ..
-						"/Cl esc - Aktivieren oder deaktivieren Sie die Escape-Taste\n" ..
-						"/Cl options -- Zeigen Sie das Optionsfeld an";
-	Strings.Description20 = "EmotesHelper ist ein kleines Plugin, mit dem Sie schnell auf Ihre Emotes zugreifen konnen\n" ..
-						"Sie konnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
-						"Sie konnen auf die Schaltflache EmotesHelper klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
-						"Klicken Sie mit der rechten Maustaste auf das Symbol, um das Optionsfenster zu offnen\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Emo show - zeige das Fenster\n" ..
-						"/Emo Hide - Verstecke das Fenster\n" ..
-						"/Emo clear - Alle Eintrage loschen\n" ..
-						"/Emo options -- Zeigen Sie das Optionsfeld an\n" ..
-						"/Emo default - fulle automatisch mit allen Grundlegenden Emotes\n";
+	Strings.Description19 = "'Clock' ist ein kleines Plugin, welches die aktuelle Uhrzeit und die Tageszeit des Spiels anzeigt.\n\n" ..
+						"Klicke mit der rechten Maustaste auf das Symbol, um die Optionen anzuzeigen.\n" ..
+						"Du kannst einen Alarm einstellen, der zur eingegebenen Zeit mit einem Hinweis alarmiert.\n" ..
+						"Wenn die Uhrzeit nicht synchronisiert ist, \195\164ndere den Server in den Optionen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/cl show - Zeigt das Fenster an.\n " ..
+						"/cl hide - Blendet das Fenster aus.\n" ..
+						"/cl clear - L\195\182scht alle Verkn\195\188pfungen.\n" ..
+						"/cl esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/cl alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/cl options - Zeigt die Optionen an.\n" ..
+						"/cl toggle - Fenster anzeigen/ausblenden.\n\n";
+	Strings.Description20 = "Mit 'EmotesHelper' kannst du schnell auf deine Emotes zugreifen.\n\n" ..
+						"Du kannst auf das Symbol klicken, um das Fenster anzuzeigen oder auszublenden.\n" ..
+						"Klicke mit der rechten Maustaste auf das Symbol, um die Optionen anzuzeigen.\n" ..
+						"Du kannst die Verkn\195\188pfungen durch Drag & Drop verschieben, um sie nach deinen W\195\188nschen zu organisieren.\n" ..
+						"Wenn du mit dem Mauszeiger \195\188ber eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/emo show - Zeigt das Fenster an.\n" ..
+						"/emo hide - Blendet das Fenster aus.\n" ..
+						"/emo options - Zeigt die Optionen an.\n" ..
+						"/emo clear - L\195\182scht alle Verkn\195\188pfungen.\n" ..
+						"/emo default - F\195\188gt alle verf\195\188gbaren Standard-Emotes ein.\n" ..
+						"/emo lock - Sperrt/entsperrt die Symbole.\n" ..
+						"/emo toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/emo alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n\n";
 	Strings.Description21 = "ClassObjects ist ein kleines Plugin, mit dem Sie schnell auf Ihre Klassenobjekte zugreifen konnen\n" ..
 						"Sie konnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
 						"Sie konnen auf die Schaltflache ClassObjects klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
