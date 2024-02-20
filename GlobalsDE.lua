@@ -296,70 +296,88 @@ function CreateLocalizationInfo()
 						"/emo lock - Sperrt/entsperrt die Symbole.\n" ..
 						"/emo toggle - Fenster anzeigen/ausblenden.\n" ..
 						"/emo alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n\n";
-	Strings.Description21 = "ClassObjects ist ein kleines Plugin, mit dem Sie schnell auf Ihre Klassenobjekte zugreifen konnen\n" ..
-						"Sie konnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
-						"Sie konnen auf die Schaltflache ClassObjects klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
-						"Klicken Sie mit der rechten Maustaste auf das Symbol, um das Optionsfenster zu offnen\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Class show - zeige das Fenster\n" ..
-						"/Class Hide - Verstecke das Fenster\n" ..
-						"/Class esc - Aktivieren oder deaktivieren Sie die Escape-Taste\n" ..
-						"/Class clear - Alle Eintrage loschen\n" ..
-						"/Class options -- Zeigen Sie das Optionsfeld an\n";
-	Strings.Description22 = "Potions ist ein kleines Plugin, mit dem Sie schnell auf Ihre Heiltranke, Krankheiten ... zugreifen konnen.\n" ..
-						"Sie konnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
-						"Sie konnen auf die Schaltflache Potions klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
-						"Klicken Sie mit der rechten Maustaste auf das Symbol, um das Optionsfenster zu offnen\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Pot show - zeige das Fenster\n" ..
-						"/Pot Hide - Verstecke das Fenster\n" ..
-						"/Pot esc - Aktivieren oder deaktivieren Sie die Escape-Taste\n" ..
-						"/Pot clear - Alle Eintrage loschen\n" ..
-						"/Pot options -- Zeigen Sie das Optionsfeld an\n";
-	Strings.Description23 = "PlopIamConnected ist ein kleines Plugin, mit dem Sie Ihre Freunde beim Herstellen einer Verbindung vergrossern konnen\n" ..
-						"Klicken Sie einfach auf das Popup, um es zu schliessen\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Plop show - zeige das Fenster\n" ..
-						"/Plop Hide - Verstecke das Fenster\n" ..
-						"/Plop list zeige allen Freunden\n" ..
-						"/Plop clearall losche alle Freunde\n" ..
-						"/Plop clear freundname - losche freundname\n";
-	Strings.Description24 = "WhereToPlay ist ein kleines Plugin, mit dem Sie schnell einen Uberblick uber Bereiche des Spiels auf Ihrem Level erhalten\n" ..
-						"Sie mussen die ALT-Taste drucken, um das Symbol zu verschieben\n\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/WTP show - zeige das Fenster\n" ..
-						"/WTP Hide - Verstecke das Fenster\n" ..
-						"/WTP esc - Aktivieren oder deaktivieren Sie die Escape-Taste\n" ..
-						"/WTP options -- Zeigen Sie das Optionsfeld an\n" ..
-						"/WTP toggle - Fenster umschWTPen\n" ..
-						"/WTP icon - Symbol ein-oder ausblenden";
-	Strings.Description25 = "MusicMan ist ein kleines Plugin fur den schnellen Zugriff auf Ihr Musikinstrument\n" ..
-						"Sie konnen eine Verknupfung mit der Mausbewegung auf der Verknupfung loschen\n" ..
-						"Stellen Sie Ihre Fernkampfwaffe und Ihr Musikinstrument im Optionsfenster ein\n" ..
-						"Klicken Sie auf das Musikinstrument, um sich damit auszustatten, dann auf Musik zum Spielen und dann auf das Hauptinstrument, um es neu auszurusten\n\n" ..
-						"Raccourci disponible\n" ..
-						"/Mu show - zeige das Fenster\n" ..
-						"/Mu Hide - Verstecke das Fenster\n" ..
-						"/Mu alt - Aktivieren oder deaktivieren Sie die alt-Taste um das Symbol zu verschieben\n" ..
-						"/Mu toggle - Fenster ein-oder ausblenden\n" ..
-						"/Mu options - Zeigen Sie das Optionsfenster an";
-	Strings.Description26 = "FishingHelper ist ein kleines Plugin um einen schnellen Uberblick uber Quests zu haben, Hobbymeister" ..
-						"Angelgebiet und verschiedene Fische im Spiel verfugbar\n" ..
-						"Raccourci disponible\n" ..
-						"/Mu show - zeige das Fenster\n" ..
-						"/Mu hide - Verstecke das Fenster\n" ..
-						"/Mu alt - Aktivieren oder deaktivieren Sie die alt-Taste um das Symbol zu verschieben\n" ..
-						"/Mu toggle - affiche ou cache la fenetre\n";
-	Strings.Description27 = "Tokens ist ein kleines Plugin zum Anzeigen Ihrer verschiedenen Token\n" ..
-						"Verknupfung verfugbar\n" ..
-						"/Tokens help - Hilfefenster anzeigen\n" ..
-						"/Tokens show - Fenster anzeigen\n" ..
-						"/Tokens hide - Fenster verbergen\n" ..
-						"/Tokens esc - Escape-Taste aktivieren oder deaktivieren\n" ..
-						"/Tokens alt - Alt-Taste aktivieren oder deaktivieren, um das Symbol zu verschieben\n" ..
-						"/Tokens toggle - Fenster aktivieren- und deaktivieren\n" ..
-						"/Tokens options - Optionsfenster anzeigen\n" ..
-						"/Tokens clear - Fenster neu initialisieren\n";
+	Strings.Description21 = "Mit 'ClassObjects' kannst du einfach auf deine Klassengegenst\195\164nde zugreifen.\n\n" ..
+						"Du kannst auf das Symbol klicken, um das Fenster anzuzeigen oder auszublenden.\n" ..
+						"Klicke mit der rechten Maustaste auf das Symbol, um die Optionen anzuzeigen.\n" ..				
+						"Wenn du mit dem Mauszeiger \195\188ber eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/class show - Zeigt das Fenster an.\n" ..
+						"/class hide - Blendet das Fenster aus.\n" ..
+						"/class options - Zeigt die Optionen an.\n" ..
+						"/class esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/class clear - L\195\182scht alle Verkn\195\188pfungen.\n" ..
+						"/class alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/class lock - Sperrt/entsperrt die Verkn\195\188pfungen.\n" ..
+						"/class toggle - Fenster anzeigen/ausblenden.\n\n";						
+	Strings.Description22 = "Mit 'Potions' kannst du schnell auf deine Tr\195\164nke gegen Wunden, Krankheiten, Furcht und Gift zugreifen.\n\n" ..
+						"Du kannst auf das Symbol klicken, um das Fenster anzuzeigen oder auszublenden.\n" ..
+						"Klicke mit der rechten Maustaste auf das Symbol, um die Optionen anzuzeigen.\n" ..
+						"Wenn du mit dem Mauszeiger \195\188ber eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/pot show - Zeigt das Fenster an.\n" ..
+						"/pot hide - Blendet das Fenster aus.\n" ..
+						"/pot options - Zeigt die Optionen an.\n" ..
+						"/pot esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/pot clear - L\195\182scht alle Verkn\195\188pfungen.\n" ..
+						"/pot alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/pot lock - Sperrt/entsperrt die Verkn\195\188pfungen.\n" ..
+						"/pot toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/pot always - Zeigt das Fenster dauerhaft an.\n\n";
+	Strings.Description23 = "Mit 'PlopIamConnected' wirst du dar\195\188ber informiert, wenn ein bestimmter Spieler online kommt.\n\n" ..
+						"Klicke einfach auf das Popup mit dem Name, um es zu schlie\195\159en.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/plop show - Zeigt das Fenster an.\n" ..
+						"/plop hide - Blendet das Fenster aus.\n" ..
+						"/plop list - Zeigt eine Liste der Freunde an.\n" ..
+						"/plop clearall - L\195\182scht alle Freunde.\n" ..
+						"/plop alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/plop esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/plop clear <name> - L\195\182scht den entsprechenden Freund.\n" ..
+						"/plop toggle - Fenster anzeigen/ausblenden.\n\n";
+	Strings.Description24 = "Mit 'WhereToPlay' bekommst du Tipps, wo du mit deiner Erfahrungsstufe am besten spielen kannst.\n\n" ..
+						"Klicke auf den Namen einer Region, um die entsprechende Karte zu öffnen.\n" ..
+						"Halte die Alt-Taste gedr\195\188ckt, um das Symbol zu verschieben.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/wtp help - Hilfefenster anzeigen.\n" ..
+						"/wtp show - Zeigt das Fenster an.\n" ..
+						"/wtp hide - Blendet das Fenster aus.\n" ..
+						"/wtp options - Zeigt die Optionen an.\n" ..
+						"/wtp esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/wtp alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/wtp toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/wtp icon - Symbol anzeigen/ausblenden.\n\n";
+	Strings.Description25 = "Mit 'MusicMan' kannst du schnell zwischen deiner Waffe und deinem Musikinstrument wechseln.\n\n" ..
+						"Klicke mit der rechten Maustaste auf das Symbol, um die Optionen anzuzeigen.\n" ..
+						"Stelle in den Optionen deine Fernkampfwaffe und das gew\195\188nschte Musikinstrument ein.\n" ..
+						"Klicke auf das Musikinstrument, um es auszur\195\188sten und dann auf Musik (rechte Verkn\195\188pfung), um zu musizieren.\n" ..
+						"Wenn du mit dem Mauszeiger \195\188ber eine Verkn\195\188pfung gehst, kannst du sie durch Drehen des Mausrades l\195\182schen.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/mu show - Zeigt das Fenster an.\n" ..
+						"/mu hide - Blendet das Fenster aus.\n" ..
+						"/mu alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/mu toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/mu options - Optionen werden angezeigt.\n\n";
+	Strings.Description26 = "Mit 'FishingHelper' bekommst du einen schnellen \195\156berblick \195\188ber das Hobby 'Angeln'.\n\n" ..
+						"Das Plugin zeigt alle verfügbaren Angelruten, die Standorte der Hobby-Meister, die verschiedenen Fischarten und spezielle Angel-Aufgaben auf den Karten an.\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/wtf help - Zeigt das Hilfefenster an.\n" ..
+						"/wtf show - Zeigt das Fenster an.\n" ..
+						"/wtf hide - Blendet das Fenster aus.\n" ..
+						"/wtf esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/wtf alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/wtf toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/wtf options - Zeigt die Optionen an.\n" ..
+						"/wtf icon - Symbol anzeigen/ausblenden.\n\n";
+	Strings.Description27 = "Das Plugin 'Tokens' zeigt die gew\195\188nschten Tokens an, die du im Spiel gesammelt hast - klingt logisch...\n\n" ..
+						"Verf\195\188gbare Befehle:\n" ..
+						"/tok help - Zeigt das Hilfefenster an.\n" ..
+						"/tok show - Zeigt das Fenster an.\n" ..
+						"/tok hide - Blendet das Fenster aus.\n" ..
+						"/tok esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+						"/tok alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+						"/tok toggle - Fenster anzeigen/ausblenden.\n" ..
+						"/tok options - Zeigt die Optionen an.\n" ..
+						"/tok clear - Tokens neu initialisieren.\n\n";
 	Strings.Description28 = "Beorningus ist ein kleines Plugin, mit dem Sie schnell auf Ihre Formanderungen zugreifen konnen\n" ..
 						"Sie konnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen\n" ..
 						"Sie konnen auf die Schaltflache Beorningusklicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden\n" ..
